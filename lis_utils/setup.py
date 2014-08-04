@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='simple_lis2d_utils',
-    version='0.1.0',
+    version='0.1.1',
     author='Micah Mukolwe',
     author_email='mukolx@mail.com',
     packages=['lis_utils'],
