@@ -10,6 +10,9 @@ import matplotlib as mpl
 
 def ascii_reader( filename):
     """
+    Originally written by J. Neal (https://source.ggy.bris.ac.uk/wiki/LISFLOOD-FP_and_MATLAB).
+    Converted to python scripts by Micah Mukolwe 
+
     Usage:
     dem, ncols, nrows, xllcorner, yllcorner, cellsize = ascii_reader( filename)
     """
@@ -32,6 +35,10 @@ def ascii_reader( filename):
 
 def ascii_writer(filename, DEM, xllcorner, yllcorner, cellsize):
     """
+     
+    Originally written by J. Neal (https://source.ggy.bris.ac.uk/wiki/LISFLOOD-FP_and_MATLAB).
+    Converted to python scripts by Micah Mukolwe 
+
     Usage:
     ascii_writer(filename, DEM, xllcorner, yllcorner, cellsize)
     """
@@ -156,7 +163,13 @@ def stage_read(file_name):
 
 def nse_calc(obs, sim):
     '''
+    Description
+    ----------
+    Calculation of Nash-Sutcliffe model efficiency coefficient
+    http://en.wikipedia.org/wiki/Nash-Sutcliffe_model_efficiency_coefficient
+
     Usage:
+    ------
     NSE = nse_calc(obs, sim)
     '''
     N = len(obs)
@@ -171,7 +184,12 @@ def nse_calc(obs, sim):
 
 def rmse_calc(obs, sim):
     '''
+    Description
+    -----------
+    Calculation of the Root Mean Square Error of a series given the true values
+    
     Usage:
+    ------
     rmse = rmse_calc(obs, sim)
     '''
     N = len(obs)
