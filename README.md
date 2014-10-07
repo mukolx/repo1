@@ -1,6 +1,6 @@
 <p><h1>lis_utils</h1></p>
 
-<p>Some *NOOB* python scripts to manipulate flood inundation 2D model results. Using the model LISFLOOD-FP : <a href="http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/">LISFLOOD-FP model homepage</a></p>
+<p>Some <i>NOOB</i> python scripts to manipulate flood inundation 2D model results. Using the model LISFLOOD-FP : <a href="http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/">LISFLOOD-FP model homepage</a></p>
 
 <p>More about the actual model can be read in the following publications:</p>
 
